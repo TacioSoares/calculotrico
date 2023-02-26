@@ -1,10 +1,10 @@
 var formulario = document.querySelector('#formulario')
 var campoResposta = document.querySelector('#resposta')
 
-window.onload = function() {
+/*window.onload = function() {
     var body = document.querySelector('#body')
     body.style.backgroundImage = 'url(../imagens/colecao-de-fios-macios.jpg)'
-}
+}*/
 formulario.addEventListener("submit", function(event){
     event.preventDefault()
     campoResposta.innerHTML = ''
