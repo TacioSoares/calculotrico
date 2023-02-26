@@ -7,8 +7,9 @@
 }
 body {
     width: 100vw;
-    background: rgb(212, 167, 174) url(../imagens/colecao-de-fios-macios.jpg) center no-repeat fixed;
+    background: url(../imagens/colecao-de-fios-macios.jpg) center no-repeat fixed;
     background-size: cover;
+    /*rgb(212, 167, 174) */
 }
 header {
     padding: 20px;
