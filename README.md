@@ -1,2 +1,2 @@
-# calculotrico
- Projeto para ajudar nos cálculos de pontos e carreiras para quem tricota,
+# calculo-trico
+ Projeto que ajuda profissionais de tricô a desenvolverem receitas de tricô a partir de uma receita com amostra e medidas.

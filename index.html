@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Pontos de Tricô</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="./imagens/escada-de-fio-com-agulhas-tricô-ícone-feito-à-mão-fibra-algodão-lã-bola-hobby-trabalho-agulha-criar-vetor-pele-ou-mole-roupa-218709203.jpg" type="image/x-icon">
+</head>
+<body id="body">
+    <header>
+        <h1>Cálculo de pontos e carreiras de tricô</h1>
+    </header>
+    <section>
+        <form id="formulario">
+            <h2>Dados da Sua Amostra</h2>
+            <div id="dados-da-amostra">
+                
+                <p class="dados">
+                    <label for="ponto-amostra-cm">Largura da sua amostra (cm):</label>
+                    <input type="number" required class="input-number" name="centimetros-amostra" id="ponto-amostra-cm" min="1">
+                </p>
+                <p class="dados">
+                    <label for="quantidade-pontos-amostra">Quantidade de pontos da sua amostra:</label>
+                    <input type="number" required class="input-number" name="centimetros-amostra" id="quantidade-pontos-amostra" min="1">
+                </p>
+                <p class="dados">
+                    <label for="carreira-amostra-cm">Altura da sua amostra (cm):</label>
+                    <input type="number" required class="input-number" name="centimetros-amostra" id="carreira-amostra-cm" min="1">
+                </p>
+                <p class="dados">
+                    <label for="quantidade-carreira-amostra">Quantidade de carreiras da sua amostra:</label>
+                    <input type="number" required class="input-number" name="centimetros-amostra" id="quantidade-carreira-amostra" min="1">
+                </p>
+            </div>
+            <h2>Informações da sua peça</h2>
+            <div id="dados-da-sua-peca">
+                
+                <p class="dados">
+                    <label for="largura-peca">Qual largura você quer na sua peça? (cm):</label>
+                    <input type="number" required class="input-number" name="centimetros-amostra" id="largura-peca" min="1">
+                </p>
+                <p class="dados">
+                    <label for="altura-peca">Qual altura você quer na sua peça? (cm):</label>
+                    <input type="number" required class="input-number" name="centimetros-amostra" id="altura-peca" min="1">
+                </p>
+            </div>
+            <input type="submit" value="Calcular" id="calcular">
+        </form>
+        <div id="resposta">
+
+        </div>
+    </section>
+    
+    <script src="js/calculoTrico.js"></script>
+</body>
+</html>
