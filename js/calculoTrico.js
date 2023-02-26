@@ -29,7 +29,7 @@ function mostraResposta(resultado) {
     if(isNaN(resultado.resultadoPontos) || isNaN(resultado.resultadoCarreira)) {
         window.alert('Você precisa definir os valores')
     } else {
-        campoResposta.innerHTML = `<p>A sua deverá ter:</p>      <p><strong>${resultado.resultadoPontos}</strong> pontos</p>
+        campoResposta.innerHTML = `<p>A sua peça deverá ter:</p>      <p><strong>${resultado.resultadoPontos}</strong> pontos</p>
         <p><strong>${resultado.resultadoCarreira}</strong> carreiras.</p>`
     }
     
